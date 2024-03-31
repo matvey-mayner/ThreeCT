@@ -3,8 +3,8 @@
 
     session_start();
 
-    $url = 'http://' .$_SERVER['HTTP_HOST'] /* . '/onect' */;
-    $sitename = 'OneConnect';
+    $url = 'http://' .$_SERVER['HTTP_HOST'] /* . '/threect' */;
+    $sitename = 'ThreeConnect';
     $favicon = 'favicon.png';
     $style = 'md1';
     $lang = 'ru.php';

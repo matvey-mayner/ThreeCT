@@ -56,6 +56,7 @@
 			</form>
 			<p><?php echo($error); ?></p><br>
 			<a href="pass.php"><?php echo($lang_changepass); ?></a>
+			<a href="delaccount.php"><?php echo('Удалить Аккаунт'); ?></a>
 		</div>
 	</div>
 	<?php include "../include/html/footer.php" ?>

@@ -1,5 +1,5 @@
 *{
-	font-family: sans-serif;
+	font-family: Palatino, URW Palladio L, serif;
 	word-break: break-word;
 }
 
@@ -12,7 +12,7 @@ body {
 
 .header {
 	display: block;
-   	background: #4A148C;
+   	background: #ade4f7;
 	color: white;
 	text-decoration: none;
 	padding: 16px;

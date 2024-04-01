@@ -85,6 +85,7 @@
                         <input type="radio" name="priv" value="0">Нету привилегии<br>
                         <input type="radio" name="priv" value="1">Галочка<br>
                         <input type="radio" name="priv" value="2">Модератор<br>
+                        <input type="radio" name="priv" value="3">Админ<br>
                         <input type="radio" name="priv" value="3">Владелец
                     </td>
                 </tr>

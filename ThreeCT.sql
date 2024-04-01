@@ -54,7 +54,7 @@ CREATE TABLE `users` (
   `img` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
-INSERT INTO `users` (`id`, `email`, `name`, `pass`, `ip`, `descr`, `ban`, `yespost`, `privileg`, `img50`, `img100`, `img200`, `img`) VALUES
+INSERT INTO `users` (`id`, `email`, `name`, `pass`, `ip`, `descr`, `ban`, `yespost`, `priv`, `img50`, `img100`, `img200`, `img`) VALUES
 (1, 'admin@admin.org', 'Admin', '$2y$10$wqy6H/8Yy1CV1OrZcE22nOdMLXDet2I2O37mwgHoSO83Fv976ZgD6', '0', '', 0, '0', 3, '', '', '', '');
 
 

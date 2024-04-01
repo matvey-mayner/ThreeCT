@@ -11,8 +11,8 @@
     $enable_antispam = true;
     $antispam = 60;
     $links = array(
-        'Telegram' => 'https://t.me/blopsoft',
-        'Github' => 'https://github.com/blopsoft/onect'
+        'Telegram' => '',
+        'Github' => 'https://github.com/matvey-mayner/ThreeCT'
     );
 
     // Выполнение конфига

@@ -29,7 +29,7 @@
 		<div class="main">
 			<form action="login.php" method="POST">
 				<p>
-					<p>Логин:</p>
+					<p>Почта:</p>
 					<input type="email" name="username">
 				</p>
 				<p>

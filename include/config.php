@@ -11,7 +11,6 @@
     $enable_antispam = true;
     $antispam = 60;
     $links = array(
-        'Telegram' => '',
         'Github' => 'https://github.com/matvey-mayner/ThreeCT'
     );
 

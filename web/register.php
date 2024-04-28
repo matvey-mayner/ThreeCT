@@ -6,7 +6,7 @@
 	}
 
 	$checkemail = 'SELECT email FROM users WHERE email = "' .$_POST['email']. '"';
-	$checkip = 'SELECT ip FROM users WHERE ip = "' .$_SERVER['REMOTE_ADDR']. '"';
+	//$checkip = 'SELECT ip FROM users WHERE ip = "' .$_SERVER['REMOTE_ADDR']. '"';
 	$createacc = 'INSERT INTO users(name, email, pass, ip, descr) VALUES (
 		"' .mysqli_real_escape_string($db, $_POST['username']). '", 
 		"' .mysqli_real_escape_string($db, $_POST['email']). '", 
@@ -40,9 +40,9 @@
 			$text = 'Email почта занятя!';
 		}	
 
-		if(mysqli_num_rows(mysqli_query($db, $checkip)) != 0){
-			$text = 'Вы уже зарегистрированы!';
-		}
+		//if(mysqli_num_rows(mysqli_query($db, $checkip)) != 0){
+		//	$text = 'Вы уже зарегистрированы!';
+		//}
 
 		if(empty(trim($text))){
 			if(mysqli_query($db, $createacc)){
